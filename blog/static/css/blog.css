@@ -1,0 +1,42 @@
+:root {
+    --candy: #fdc5f5ff;
+    --plum: #f7aef8ff;
+    --lavender: #b388ebff;
+    --cornflower: #8093f1ff;
+    --sky-blue: #72ddf7ff;
+    /*link til palette: https://coolors.co/fdc5f5-f7aef8-b388eb-8093f1-72ddf7*/
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 2.7em; 
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a, h2 a {
+    color: var(--cornflower);
+}
+
+header {
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.post {
+    padding-top: 2em;
+}
+
+time {
+    font-size: 0.85em;
+}
+
+p {
+    padding-top: 1.5em;
+}
