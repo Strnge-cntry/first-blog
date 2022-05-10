@@ -40,3 +40,23 @@ time {
 p {
     padding-top: 1.5em;
 }
+
+.save,
+.edit {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.btn-secondary {
+    color: var(--lavender);
+    background-color: white;
+    font-weight: 700;
+}
+
+.btn {
+    border: none;
+}

@@ -12,7 +12,12 @@
     </head>
     <body>
         <header>
-            <h1><a href="/">First blog</a></h1>
+            <div class="container">
+                {% if user.is_authenticated %}
+                    <a href="{% url 'post_new' %}" class="top-menu">{% include './icons/file-earmark-plus.svg' %}</a>
+                {% endif %}
+                <h1><a href="/">First blog</a></h1>
+            </div>
         </header>
         
         {% block content %}
